@@ -1,4 +1,4 @@
- // Quiz Logic
+
     function checkAnswer(answer) {
       const result = document.getElementById("quiz-result");
       if (answer === "8") {
@@ -10,7 +10,6 @@
       }
     }
 
-    // Fetch Weather from Open-Meteo API
     function fetchWeather() {
       fetch('https://api.open-meteo.com/v1/forecast?latitude=51.5&longitude=-0.12&current_weather=true')
         .then(response => response.json())
